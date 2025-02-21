@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Mulish;
+}
+.container {
+  width: 100vw;
+  transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+
+#w1 {
+  display: flex;
+  height: 100%;
+  width: 65%;
+  justify-content: start;
+  align-items: end;
+}
+#w2 {
+  height: 95%;
+  width: 45%;
+  display: flex;
+  align-items: start;
+  margin-top: 20px;
+  justify-content: center;
+}
+#info {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0));
+  color: white;
+  display: flex;
+}
+#con2 {
+  width: 90%;
+  height: 60%;
+}
+#input {
+  
+  height: 20%;
+  display: flex;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  transition: backdrop-filter 0.3s ease-in-out;
+}
+#input:hover{
+  backdrop-filter: blur(30px);
+
+}
+#city {
+  height: 40px;
+  width: 80%;
+  border-radius: 12px;
+  background-color: rgba(2, 2, 2, 0.409);
+  border: none;
+  font-size: 17px;
+  color: white;
+  padding-left: 10px;
+  transition: backdrop-filter 0.3s ease-in-out;
+}
+#city:focus {
+  outline: none;
+  background-color: rgba(2, 2, 2, 0.404);
+}
+#city:hover{
+  background-color: rgba(2, 2, 2, 0.404);
+
+}
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+#btn {
+  height: 40px;
+  width: 40px;
+
+  border-radius: 50%;
+  background-color: rgba(2, 2, 2, 0.374);
+  border: none;
+  color: white;
+  margin-left: 5px;
+  transition: backdrop-filter 0.3s ease-in-out;
+}
+#btn:hover{
+  background-color: rgba(2, 2, 2, 0.404);
+
+}
+#icont {
+  height: 80%;
+  margin-left: 70px;
+  margin-top: 50px;
+  width: 30%;
+}
+#another{
+  width: 30%;
+  
+  
+}
+#c{
+  
+  border-radius: 40px;
+  width: 75%;
+  height: 50%;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+ justify-content: center;
+ text-align: start;
+ padding-left: 10px;
+  backdrop-filter: blur(5px);
+  transition: backdrop-filter 0.3s ease-in-out;
+
+}
+#c:hover{
+  backdrop-filter: blur(20px);
+
+}
+.txt{
+  font-size: 2em;
+  font-weight: lighter;
+}
+#temp {
+  height: 45%;
+  display: flex;
+}
+#tempinfo {
+  height: 39%;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+#tem {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 150px;
+}
+#unit{
+  width: 8%;
+  font-size: 3.2em;
+
+}
+#location {
+  font-size: 2em;
+  margin-left: 5px;
+}
+#data {
+  font-size: 4em;
+  font-weight: lighter;
+}
+#footer{
+  text-align: center;
+  width: 100vw;
+  color: white;
+  position: absolute;
+  font-size: 12px;
+}
